@@ -16,7 +16,7 @@ def recipe():
 
 @app.route("/earth")
 def hello_earth():
-    return "<p>Hello,people Earth!</p>"
+    return "<p>Hello,people Earthlings!</p>"
 
 if __name__ == '__main__':
     app.run(debug = True)
